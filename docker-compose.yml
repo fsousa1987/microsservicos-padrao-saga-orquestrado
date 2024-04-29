@@ -126,7 +126,7 @@ services:
     environment:
       - KAFKA_BROKER=kafka:29092
       - DB_HOST=product-db
-      - DB_NAME=product-db
+      - DB_NAME=product-fsousa1987-db
       - DB_PORT=5432
       - DB_USER=postgres
       - DB_PASSWORD=postgres
@@ -144,7 +144,7 @@ services:
     environment:
       - KAFKA_BROKER=kafka:29092
       - DB_HOST=payment-db
-      - DB_NAME=payment-db
+      - DB_NAME=payment-fsousa1987-db
       - DB_PORT=5432
       - DB_USER=postgres
       - DB_PASSWORD=postgres
@@ -162,7 +162,7 @@ services:
     environment:
       - KAFKA_BROKER=kafka:29092
       - DB_HOST=inventory-db
-      - DB_NAME=inventory-db
+      - DB_NAME=inventory-fsousa1987-db
       - DB_PORT=5432
       - DB_USER=postgres
       - DB_PASSWORD=postgres
